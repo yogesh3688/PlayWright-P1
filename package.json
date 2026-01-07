@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "playwright": "^1.57.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  },
+  "scripts": {
+    "test:sanity" : "npx playwright test --grep @sanity --project=chromium --headed=true",
+    "test:full" : "npx playwright test --project=chromium"
+  }
+}
