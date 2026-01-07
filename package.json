@@ -7,7 +7,7 @@
     "@types/node": "^25.0.3"
   },
   "scripts": {
-    "test:sanity" : "npx playwright test --grep @sanity --project=chromium --headed=true",
+    "test:sanity" : "npx playwright test --grep @sanity --project=chromium",
     "test:full" : "npx playwright test --project=chromium"
   }
 }
